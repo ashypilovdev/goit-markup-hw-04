@@ -1,0 +1,35 @@
+.team-section {
+  background-color: var(--color-surface-default);
+}
+.team-section .team-list {
+  display: flex;
+  gap: 24px;
+}
+.team-section .team-item {
+  background-color: var(--color-surface-primary);
+  border-radius: 0 0 4px 4px;
+}
+
+.team-section .team-img {
+  display: block;
+}
+
+.team-section .team-card-content {
+  text-align: center;
+  padding: 32px 16px;
+}
+
+.team-section .team-member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-contrast-high);
+  margin-bottom: 8px;
+}
+
+.team-section .team-member-role {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}

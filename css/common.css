@@ -1,0 +1,73 @@
+:root {
+  --color-brand-default: #4d5ae5;
+  --color-brand-pressed: #404bbf;
+  --color-text-primary: #434455;
+  --color-text-secondary: #8e8f99;
+  --color-contrast-high: #2e2f42;
+  --color-surface-primary: #ffffff;
+  --color-surface-default: #f4f4fd;
+  --color-surface-hero: #2e2f42;
+  --color-accent-subtle: #e7e9fc;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text-primary);
+  background-color: var(--color-surface-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--color-contrast-high);
+  margin-bottom: 72px;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--color-brand-default);
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
