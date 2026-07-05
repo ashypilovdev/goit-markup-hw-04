@@ -11,7 +11,6 @@
   background-position: center;
   background-size: cover;
 }
-
 .hero-section .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -20,7 +19,6 @@
   max-width: 496px;
   margin: 0 auto 48px auto;
 }
-
 .hero-section .hero-btn {
   font-family: inherit;
   font-weight: 500;
@@ -35,7 +33,6 @@
   padding: 16px 32px;
   min-width: 169px;
 }
-
 .hero-section .hero-btn:hover,
 .hero-section .hero-btn:focus {
   background-color: var(--color-brand-pressed);
