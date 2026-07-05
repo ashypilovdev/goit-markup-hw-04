@@ -8,17 +8,17 @@
 .team-section .team-item {
   background-color: var(--color-surface-primary);
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
+              0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+              0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-
 .team-section .team-img {
   display: block;
 }
-
 .team-section .team-card-content {
   text-align: center;
   padding: 32px 16px;
 }
-
 .team-section .team-member-name {
   font-weight: 500;
   font-size: 20px;
@@ -27,9 +27,31 @@
   color: var(--color-contrast-high);
   margin-bottom: 8px;
 }
-
 .team-section .team-member-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.team-section .team-socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.team-section .team-socials .socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-brand-default);
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-section .team-socials .socials-link:hover,
+.team-section .team-socials .socials-link:focus {
+  background-color: var(--color-brand-pressed); 
 }
