@@ -2,7 +2,6 @@
   display: flex;
   gap: 24px;
 }
-
 .features-section .features-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -11,9 +10,18 @@
   color: var(--color-contrast-high);
   margin-bottom: 8px;
 }
-
 .features-section .features-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.features-section .features-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background-color: var(--color-surface-default);
+  border-radius: 4px;
+  border: 1px solid var(--color-text-secondary);
+  margin-bottom: 8px;
 }
