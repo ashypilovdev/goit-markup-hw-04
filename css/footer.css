@@ -31,7 +31,7 @@
 }
 .socials-title {
   letter-spacing: 0.02em;
-  color: var(--color-surface-default);
+  color: var(--color-surface-primary);
   margin-bottom: 16px;
   line-height: 1.5;
   font-weight: 500;

@@ -42,7 +42,7 @@
 }
 .header-section .nav-list .nav-link:hover,
 .header-section .nav-list .nav-link:focus,
-.header-section .nav-list .nav-link.current {
+.header-section .nav-list .nav-link.active {
   color: var(--color-brand-pressed);
 }
 .header-section .nav-list .nav-link::after {
@@ -60,15 +60,11 @@
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-section .nav-list .nav-link.current::after {
+.header-section .nav-list .nav-link.active::after {
   opacity: 1;
   transform: scaleX(1);
 }
-.header-section .nav-list .nav-link:hover::after,
-.nav-link:focus::after {
-  opacity: 1;
-  transform: scaleX(1);
-}
+
 .header-section .nav-link:hover,
 .header-section .nav-link:focus {
   color: var(--color-brand-pressed);
